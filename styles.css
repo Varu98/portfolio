@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #a7f3d0;
+  --off-white: #1a2b42;
+  --dark-gray: #1e3a8a;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  margin: 2rem 0rem;
+}
+
+p {
+  color: #a7f3d0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: large;
+}
+.p1 {
+  color: grey;
+}
+
+/** spaces **/
+
+.margin-md {
+  margin: 2rem;
+}
+
+/** container **/
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/** links **/
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link-primary {
+  background-color: #6d28d9;
+  border-radius: 0.5rem;
+  color: white;
+  display: block;
+  max-width: 140px;
+  margin: auto;
+  padding: 0.5rem 0.5rem;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+  display: block;
+  max-width: 140px;
+  margin: auto;
+  padding: 0.5rem 0.5rem;
+}
+.link-active :active {
+  font-weight: bolder;
+}
+
+/** look into BEM naming convention for CSS **/
+
+/** lists **/
+
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  margin-top: 3rem;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+/* Blog Image and Resize and format*/
+
+.resize {
+  height: 150px;
+  width: auto;
+  float: left;
+  padding-right: 1rem;
+}
+.clearfix {
+  overflow: auto;
+}
+/* Blog Text css */
+.right-text {
+  text-align: center;
+}
+
+/* Blog links css */
+
+.top-margin {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.top-pad {
+  margin-bottom: 1rem;
+}
+/** header **/
+
+.hero {
+  padding: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.hero .hero-img {
+  max-width: 80%;
+  width: 460px;
+  height: 350px;
+  display: block;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+.hero .hero-heading {
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+  color: var(--primary-color);
+}
+
+/** sections **/
+
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+  color: gray;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+.gr {
+  background-color: var(--dark-gray);
+}
+/** footers **/
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 4rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: larger;
+  padding-bottom: 1rem;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer-icons {
+  padding: 1rem;
+  size: 2rem;
+}
+
+/** projects **/
+.showcase-list {
+  padding: 2rem;
+}
+
+/** blogs **/
+.showcase-blog {
+  padding-bottom: 6rem;
+}
